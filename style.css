@@ -22,7 +22,7 @@ body {
 
 .location, .temp-degree {
   width: 50%;
-  height: 35vh;
+  height: 21vh;
   justify-content: space-around;
   align-items: center;
   display: flex;
