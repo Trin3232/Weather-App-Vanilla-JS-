@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+:root{
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Baloo Chettan', cursive;
+  color: var(--white);
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  background: radial-gradient(circle, rgb(243, 239, 2) 0%, rgb(161, 172, 15) 0%, rgb(155, 111, 206) 94%);
+}
+
+.location, .temp-degree {
+  width: 50%;
+  height: 35vh;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.temp-section {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.temp-degree {
+  flex-direction: column;
+  font-size: 38px;
+}
+
+.c-f {
+  font-size: 25px;
+  margin: 12.5px;
+
+}
+
