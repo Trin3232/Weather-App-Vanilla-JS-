@@ -56,7 +56,7 @@ window.addEventListener('load', ()=> {
 	// Get the id of the canvas & what type of icon to display
 
 	function setIcons( icon, iconID ) {
-		const skycons = new Skycons({color: "white" });
+		const skycons = new Skycons({color: "#ffffff" });
 
 		// We are replacing ever line with and underscore instead when getting icons & making it uppercase
 
@@ -66,9 +66,6 @@ window.addEventListener('load', ()=> {
 	}
 });
 
-/*else{
-	h2.textContent = "Hey please allow loaction on you browser, thank you!"
-}*/
 // Change year text
 
 let d = new Date();
